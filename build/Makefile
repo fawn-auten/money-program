@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = "/home/elma/Desktop/money program"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/elma/Desktop/money program"
+CMAKE_BINARY_DIR = "/home/elma/Desktop/money program/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/elma/Desktop/money program/CMakeFiles" "/home/elma/Desktop/money program//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/elma/Desktop/money program/build/CMakeFiles" "/home/elma/Desktop/money program/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/elma/Desktop/money program/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/elma/Desktop/money program/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -129,35 +129,53 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-# target to build an object file
-src/ConfigManager.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ConfigManager.o
+src/ConfigManager.o: src/ConfigManager.cpp.o
 .PHONY : src/ConfigManager.o
 
-# target to preprocess a source file
-src/ConfigManager.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ConfigManager.i
+# target to build an object file
+src/ConfigManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ConfigManager.cpp.o
+.PHONY : src/ConfigManager.cpp.o
+
+src/ConfigManager.i: src/ConfigManager.cpp.i
 .PHONY : src/ConfigManager.i
 
-# target to generate assembly for a file
-src/ConfigManager.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ConfigManager.s
+# target to preprocess a source file
+src/ConfigManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ConfigManager.cpp.i
+.PHONY : src/ConfigManager.cpp.i
+
+src/ConfigManager.s: src/ConfigManager.cpp.s
 .PHONY : src/ConfigManager.s
 
-# target to build an object file
-src/main.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.o
+# target to generate assembly for a file
+src/ConfigManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/ConfigManager.cpp.s
+.PHONY : src/ConfigManager.cpp.s
+
+src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
-# target to preprocess a source file
-src/main.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.i
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
 .PHONY : src/main.i
 
-# target to generate assembly for a file
-src/main.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.s
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
 .PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:

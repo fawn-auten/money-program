@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/main.dir/src/main.o -o out/main 
+/usr/bin/c++ -rdynamic CMakeFiles/main.dir/src/main.o CMakeFiles/main.dir/src/ConfigManager.o -o out/main 

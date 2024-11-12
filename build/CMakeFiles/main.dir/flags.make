@@ -6,5 +6,5 @@ CXX_DEFINES = -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1
 
 CXX_INCLUDES = -I"/home/elma/Desktop/money program/include"
 
-CXX_FLAGS = -std=gnu++20
+CXX_FLAGS = -g -std=gnu++20
 

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/elma/Desktop/money program/build",
+  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I\"/home/elma/Desktop/money program/include\" -g -std=gnu++20 -o CMakeFiles/main.dir/src/main.cpp.o -c \"/home/elma/Desktop/money program/src/main.cpp\"",
+  "file": "/home/elma/Desktop/money program/src/main.cpp"
+},
+{
+  "directory": "/home/elma/Desktop/money program/build",
+  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -I\"/home/elma/Desktop/money program/include\" -g -std=gnu++20 -o CMakeFiles/main.dir/src/ConfigManager.cpp.o -c \"/home/elma/Desktop/money program/src/ConfigManager.cpp\"",
+  "file": "/home/elma/Desktop/money program/src/ConfigManager.cpp"
+}
+]
