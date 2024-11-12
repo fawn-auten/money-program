@@ -1,0 +1,3 @@
+/home/elma/Desktop/money program/CMakeFiles/./out/main.dir
+/home/elma/Desktop/money program/CMakeFiles/edit_cache.dir
+/home/elma/Desktop/money program/CMakeFiles/rebuild_cache.dir
