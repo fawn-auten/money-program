@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/elma/Desktop/money program/src/main.cpp" "CMakeFiles/out/main.dir/src/main.o" "gcc" "CMakeFiles/out/main.dir/src/main.o.d"
+  "/home/elma/Desktop/money program/src/main.cpp" "CMakeFiles/main.dir/src/main.o" "gcc" "CMakeFiles/main.dir/src/main.o.d"
   )
 
 # Targets to which this target links.

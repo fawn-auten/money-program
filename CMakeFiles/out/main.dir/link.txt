@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/./out/main.dir/src/main.cpp.o -o ./out/main 
+/usr/bin/c++ -rdynamic CMakeFiles/./out/main.dir/src/main.o -o ./out/main 

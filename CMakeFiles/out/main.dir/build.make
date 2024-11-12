@@ -69,28 +69,28 @@ include CMakeFiles/./out/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/./out/main.dir/flags.make
 
-CMakeFiles/./out/main.dir/src/main.cpp.o: CMakeFiles/./out/main.dir/flags.make
-CMakeFiles/./out/main.dir/src/main.cpp.o: src/main.cpp
-CMakeFiles/./out/main.dir/src/main.cpp.o: CMakeFiles/./out/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/elma/Desktop/money program/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/./out/main.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/./out/main.dir/src/main.cpp.o -MF CMakeFiles/./out/main.dir/src/main.cpp.o.d -o CMakeFiles/./out/main.dir/src/main.cpp.o -c "/home/elma/Desktop/money program/src/main.cpp"
+CMakeFiles/./out/main.dir/src/main.o: CMakeFiles/./out/main.dir/flags.make
+CMakeFiles/./out/main.dir/src/main.o: src/main.cpp
+CMakeFiles/./out/main.dir/src/main.o: CMakeFiles/./out/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/elma/Desktop/money program/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/./out/main.dir/src/main.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/./out/main.dir/src/main.o -MF CMakeFiles/./out/main.dir/src/main.o.d -o CMakeFiles/./out/main.dir/src/main.o -c "/home/elma/Desktop/money program/src/main.cpp"
 
-CMakeFiles/./out/main.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/./out/main.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/elma/Desktop/money program/src/main.cpp" > CMakeFiles/./out/main.dir/src/main.cpp.i
+CMakeFiles/./out/main.dir/src/main.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/./out/main.dir/src/main.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/elma/Desktop/money program/src/main.cpp" > CMakeFiles/./out/main.dir/src/main.i
 
-CMakeFiles/./out/main.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/./out/main.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/elma/Desktop/money program/src/main.cpp" -o CMakeFiles/./out/main.dir/src/main.cpp.s
+CMakeFiles/./out/main.dir/src/main.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/./out/main.dir/src/main.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/elma/Desktop/money program/src/main.cpp" -o CMakeFiles/./out/main.dir/src/main.s
 
 # Object files for target ./out/main
 _/out/main_OBJECTS = \
-"CMakeFiles/./out/main.dir/src/main.cpp.o"
+"CMakeFiles/./out/main.dir/src/main.o"
 
 # External object files for target ./out/main
 _/out/main_EXTERNAL_OBJECTS =
 
-./out/main: CMakeFiles/./out/main.dir/src/main.cpp.o
+./out/main: CMakeFiles/./out/main.dir/src/main.o
 ./out/main: CMakeFiles/./out/main.dir/build.make
 ./out/main: CMakeFiles/./out/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/elma/Desktop/money program/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ./out/main"
